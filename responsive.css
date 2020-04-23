@@ -1,0 +1,87 @@
+@media all and (max-width: 1000px) {
+    .column-profil.main {
+        max-width: 850px;
+    }
+}
+
+
+@media all and (max-width: 670px) {
+    .container {
+        flex-direction: column;
+    }
+
+    picture {
+        max-width: 150px;
+        height: 150px;
+        background-size: 150px;
+        background-position: 0 -30px;
+    }
+
+
+    h2 {
+        font-size: 16px;
+    }
+
+    column-contact {
+
+        height: 300px;
+    }
+
+    .column-contact ul li {
+        font-size: 12px;
+    }
+
+    /* skills */
+    .ms-word {
+        padding: 5px;
+        margin: 10px auto;
+    }
+
+    /* profil */
+    .column-profil {
+        padding: 5px;
+        margin: 30px;
+        width: 300px;
+        text-align: left;
+    }
+
+    .column-profil p {
+        font-size: 12px;
+    }
+
+    /* judul */
+    span.top {
+        width: 150px;
+        padding: 10px;
+    }
+
+    /* rigth */
+    .column-profil.main {
+        height: 300px;
+        padding: 20px;
+    }
+
+    th,
+    td {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .sixty,
+    .fivety,
+    .fourty {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+    /* education */
+    .education ul li {
+        /* margin-top: -4px; */
+        padding: 0;
+    }
+
+    .education ul li h3,
+    caption p {
+        font-size: 10px;
+    }
+}
