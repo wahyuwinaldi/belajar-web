@@ -1,11 +1,11 @@
-@media all and (max-width: 1000px) {
+@media all and (max-width: 768pxpx) {
     .column-profil.main {
         max-width: 850px;
     }
 }
 
 
-@media all and (max-width: 670px) {
+@media all and (max-width: 576px) {
     .container {
         flex-direction: column;
     }
@@ -23,7 +23,6 @@
     }
 
     column-contact {
-
         height: 300px;
     }
 
@@ -41,7 +40,7 @@
     .column-profil {
         padding: 5px;
         margin: 30px;
-        width: 300px;
+        width: 260px;
         text-align: left;
     }
 
@@ -58,6 +57,7 @@
     /* rigth */
     .column-profil.main {
         height: 300px;
+        width: 270px;
         padding: 20px;
     }
 
@@ -75,6 +75,11 @@
     }
 
     /* education */
+    .education {
+        width: 225px;
+        padding: 0;
+    }
+
     .education ul li {
         /* margin-top: -4px; */
         padding: 0;
